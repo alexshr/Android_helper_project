@@ -1,1 +1,1 @@
-include ':Calculator', ':TestModule'
+include ':Calculator', ':TestModule', ':TestModule1'

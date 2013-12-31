@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Android_helper_project.iml" filepath="$PROJECT_DIR$/Android_helper_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestModule/TestModule.iml" filepath="$PROJECT_DIR$/TestModule/TestModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestModule1/TestModule1.iml" filepath="$PROJECT_DIR$/TestModule1/TestModule1.iml" />
     </modules>
   </component>
 </project>
