@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
+                    .add(R.id.container, new DummyFragment())
                     .commit();
         }
     }
@@ -39,19 +39,19 @@ public class MainActivity extends ActionBarActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
     /**
-     * A placeholder fragment containing a simple view.
+     * A dummy fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    public static class DummyFragment extends Fragment {
 
-        public PlaceholderFragment() {
+        public DummyFragment() {
         }
 
         @Override
